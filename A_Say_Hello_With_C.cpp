@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-   string s = "programmer";
+   string s;
+   getline(cin, s);
    cout<<"Hello, "<<s;
     return 0;
 }
