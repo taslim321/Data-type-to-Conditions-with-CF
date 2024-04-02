@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-   char a,b,op,sum,sub,mul,div;
+   int a,b;
+   char op;
    cin>>a>>op>>b;
    
    switch (op)
@@ -11,7 +12,7 @@ int main(){
     cout<<a+b;
     break;
    case '-':
-    cout<<a-b
+    cout<<a-b;
     break;
    case '*':
     cout<<a*b;

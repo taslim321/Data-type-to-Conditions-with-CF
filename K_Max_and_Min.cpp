@@ -27,5 +27,6 @@ int main(){
     min=c;
    }
    cout<<min<<" "<<max;
+//    there have anathor way to find max and min number 
     return 0;
 }
